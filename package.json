@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "start": "live-server --browser=explorer",
-    "x": "npm run compile:sass && start"
+    "x": "npm-run-all compile:sass start"
   },
   "author": "",
   "license": "ISC",
